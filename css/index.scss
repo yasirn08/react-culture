@@ -1,0 +1,206 @@
+@charset "UTF-8";
+$ionicons-font-path: "/fonts/ionicons" !default;
+$ionicons-font-family: "Ionicons" !default;
+$ionicons-version: "3.0.0-alpha.3" !default;
+@import "../node_modules/ionicons/dist/scss/ionicons";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/react-bootstrap-table/dist/react-bootstrap-table-all.min";
+@import "nojs-menus.scss";
+
+.lead {
+  font-size: 1.4em;
+}
+
+pre {
+  background-color: #333;
+  border-color: #333;
+  color: #eee;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.navbar,
+.navbar .btn,
+.navbar .dropdown-item,
+.navbar button {
+  font-size: 18px;
+}
+.main-cont {
+  background: url(../static/frontpic1.jpg);
+  height: 65vh;
+  text-align: center;
+}
+.main-cont2{
+  background: white;
+  text-align: center;
+  color: black;
+}
+.mainhead {
+  font-size: 3em;
+  font-weight: 700;
+}
+.mainhead1 {
+  margin-top: 5%;
+}
+.searchbar {
+  width: 30%;
+  margin-left: 35%;
+  margin-top: 2%;
+}
+.searchbar2 {
+  width: 30%;
+}
+.form-control {
+  padding: 2rem 1rem;
+}
+.button-signup {
+  color: rgb(255, 255, 255);
+  background-color: rgba(18, 20, 22, 0.2);
+  box-sizing: border-box;
+  font-size: 14px;
+  width: unset;
+  height: 35px;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: initial;
+  padding: 5px 15px;
+  transition: all 0.1s ease 0s;
+}
+.icon .ion-ios-search {
+  height: 1.5rem;
+}
+.cardrow{
+  margin-top: 10px;
+}
+.first-car{
+  margin-top: 2%;
+}
+.first-car h{
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.cards1{
+  margin-top: 5%;
+}
+
+
+// .row1 {
+//   width: 100%;
+//   margin-top: 5%;
+// }
+.cards1 {
+  border-radius: 10px;
+  margin-left: 3.33%;
+  border: transparent;
+  cursor: pointer;
+  overflow: hidden;
+}
+.cardimg-cont{
+  border-radius: 10px;
+}
+.cardimg {
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.cardimg:hover {
+  transform: scale(1.1);
+  will-change: transform;
+  transition: all 0.3s ease-in-out 0s;
+}
+.cards2{
+  margin-top: 5%;
+  border: transparent;
+}
+.othercards{
+  width:100%;
+}
+.cards3{
+  margin-left: 2%;
+}
+.subcards{
+  margin-top: 2%;
+}
+.paracard{
+  margin-left:4%;
+}
+.lastcard{
+  margin-top: 3%;
+}
+.secondlast{
+  margin-top:3%;
+}
+.footer{
+  padding-top: 5%;
+  margin-top: 5%;
+  padding-bottom: 3%;
+}
+.redtitle{
+  color: #FF7899;
+}
+.cityimg{
+  background-image: url(../static/frontpic1.jpg)
+}
+@media (max-width: 768px) {
+  .display-2 {
+    font-size: 3em;
+  }
+  .display-3 {
+    font-size: 2.5em;
+  }
+  .display-4 {
+    font-size: 2em;
+  }
+}
+
+.icon-spin {
+  display: inline-block;
+  animation: spin 1s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+/**
+ * This is a fix for Reactstrap 5.0.0-alpha.4 not displaying menus in the 
+ * navbar correcrtly on mobile devices.
+ **/
+.navbar .dropdown {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar .dropdown-menu {
+    position: relative !important;
+    display: block !important;
+    transform: none !important;
+    padding: 0 0 10px 0;
+    border: none;
+  }
+}
+
+/**
+ * Fix for Reactstrap
+ **/
+.react-bs-table-sizePerPage-dropdown .dropdown-item a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.react-bs-table-sizePerPage-dropdown button {
+  background: #fff;
+  color: #000;
+}
