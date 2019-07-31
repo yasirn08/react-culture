@@ -148,6 +148,42 @@ pre {
 .cityimg{
   background-image: url(../static/frontpic1.jpg)
 }
+.btn-2-1-1{
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-2-1-2{
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.384);
+  border-color: rgba(0, 0, 0, 0);
+  margin-left: 10px;
+}
+.btn-2-2{
+  border-radius: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.281);
+  border-color: rgba(0, 0, 0, 0);
+}
+.head-2{
+  padding-top: 15%;
+}
+.title-2{
+  font-size: 100px;
+  color: white
+}
+.btn-3-1 :hover{
+  background: rgb(0, 168, 135);
+  color: white;
+  border-color: rgb(0, 168, 135);
+}
+.cont-3-1{
+  border-bottom: 1px solid rgb(211, 211, 211);
+  padding-bottom: 8%;
+}
 @media (max-width: 768px) {
   .display-2 {
     font-size: 3em;

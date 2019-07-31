@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import ReactDom from "react-dom";
-import InfiniteCarousel from "react-leaf-carousel";
+import InfiniteCarousel from "react-items-carousel";
 
 import {
   Container,
